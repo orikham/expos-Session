@@ -1,39 +1,10 @@
-<?php require_once './index.php';
+<?php
+session_start();
 
-if (!empty($_POST['pseudo']) && !empty($_POST['identifiant']) && !empty($_POST['password']) && !empty($_POST['mail'])) {
+require_once './index.php';
 
-    $reqIns = $db->prepare("INSERT INTO `user`(`pseudo`, `identifiant`, `password`, `mail`) VALUES (:pseudo, :identifiant, :password, :mail)");
-    $reqIns->bindParam(':pseudo', $_POST['pseudo'], PDO::PARAM_INT);
-    $reqIns->bindParam(':identifiant', $_POST['identifiant'], PDO::PARAM_INT);
-    $reqIns->bindParam(':password', $_POST['password'], PDO::PARAM_INT);
-    $reqIns->bindParam(':mail', $_POST['mail'], PDO::PARAM_INT);
-
-    
-    $reqIns->execute();
-}
-// fin script PHP d'inscription d'un nouvel utilisateur dans une base de données//
-
-//recuperation des données d'inscription et connexion a une session//
-
-if(isset($_POST['submit'])){
-    $identifiant = $_POST['identifiant'];
-    $password = $_POST['password'];
-
-
-    $sqlCo = "SELECT * FROM `user` WHERE `identifiant` = '$identifiant' AND `password` = '$password'";
-    $req = $db->query($sqlCo);
-    $reqFetch = $req->fetch(PDO::FETCH_ASSOC);
-
-    if($req-> rowCount() > 0 && $reqFetch['identifiant'] = $identifiant  ['password'] = $password){
-        $session_start = true;
-
-        echo '<h1>Bienvenue dans votre session ' .$reqFetch['pseudo'] . '</h1>';
-    }
-
-}
-
-if(!isset($session_start)){
 ?>
+
 
 
 <!DOCTYPE html>
@@ -61,7 +32,7 @@ if(!isset($session_start)){
                 
             </fieldset>
         </form>
-        <?php } ?>
+       
     </div>
 </body>
 </html>
