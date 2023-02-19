@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/*..........début.index..........*/
+/*.....body.....*/
+body{
+    
+    background-image: url('../img/fondIndex1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    h1{
+        color: red;
+    }
+
+    section{
+        #inscription{
+            width: 500px;
+            color: red;
+        }
+
+        #connexion{
+            width: 500px;
+            color: red;
+        }
+    }
+    
+}
+
