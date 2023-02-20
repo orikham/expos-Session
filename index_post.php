@@ -17,7 +17,7 @@ require_once './index.php';
 </head>
 <body>
     <div id="connexion">
-        <form action="rt.php" method="POST">
+        <form action="session.php" method="POST">
             <fieldset>
                 <legend>Connexion</legend>
                 

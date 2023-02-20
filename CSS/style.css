@@ -12,6 +12,7 @@ a {
 /*.....body.....*/
 body {
   background-image: url("../img/fondIndex1.png");
+  /*background-size: 500px 500px;*/
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -20,6 +21,10 @@ body {
 }
 body h1 {
   color: red;
+}
+body section {
+  width: 500px;
+  height: 500px;
 }
 body section #inscription {
   width: 500px;

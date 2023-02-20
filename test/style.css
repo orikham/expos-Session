@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body img {
+  background-size: auto;
+}
+body #section {
+  width: 1000px;
+}
+body #section #inscription {
+  width: 1000px;
+  margin-top: -900px;
+  color: red;
+}/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,11 @@
 <?php
-//session_start();//
+session_start();
+
+if(session_status() == PHP_SESSION_ACTIVE){
+    echo "Une session est en cours";
+} else {
+    echo "Aucune session n'est en cours";
+}
 
 
 try{

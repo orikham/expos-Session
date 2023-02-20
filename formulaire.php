@@ -9,9 +9,9 @@
 </head>
 <body>
     
-        <h1>bienvenue mon ami . alors comme ça tu es égaré ici ? tu reviens peut-être après quelques mésaventures  ? quoique deux choix s'offrent à toi t'inscrire ou te connecter .
+        <h1>Hello alors comme ça tu es égaré ici ? tu viens peut-être après quelques mésaventures  ? Aller inscris toi sur le registre et entre te reposer.
 
-bienvenue mon ami... Bienvenue en enfer...hi...hi sur la route 139
+bienvenue mon ami... Bienvenue en enfer...hi...hi bienvenue sur la route 139...
 </h1>
 
 
