@@ -28,11 +28,13 @@ body{
     }
 
     section{
-        width: 500px;
+        width: 1000px;
         height: 500px;
+        display: flex;
         #inscription{
             width: 500px;
             color: red;
+            display: flex;flex-direction: row;
         }
 
         #connexion{

@@ -39,7 +39,24 @@ bienvenue mon ami... Bienvenue en enfer...hi...hi bienvenue sur la route 139...
 				</form>
 	        </div>
 
-            
+            <div id="connexion">
+        <form action="session.php" method="POST">
+            <fieldset>
+                <legend>Connexion</legend>
+                
+                    <label for="identifiant">Identifiant : </label>
+                    <input type="text" name="identifiant" id="identifiant" required>
+                
+
+                    <label for="password">Mot de passe : </label>
+                    <input type="password" name="password" id="password" required>
+
+                    <input type="submit" name="submit" value="gigot mon agneau ">
+                
+            </fieldset>
+        </form>
+       
+    </div>
 	</section>
 </body>
 </html>

@@ -7,6 +7,7 @@ if(session_status() == PHP_SESSION_ACTIVE){
     echo "Aucune session n'est en cours";
 }
 
+//fin de la partie session
 
 try{
     $db = new PDO('mysql:host=localhost;dbname=zombie-anarchie;charset=utf8', 'root', '');
